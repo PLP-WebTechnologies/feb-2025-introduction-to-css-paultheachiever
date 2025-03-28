@@ -1,0 +1,74 @@
+.body{
+    background-image: url('background3.png');
+background-attachment: fixed; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 0;
+padding: 0%;
+border: 0%;
+}
+.foot a{
+    color: white
+}
+.end a{
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+.head{
+    background-color: black;
+    display: flex;
+    height: 15%;
+    width: 100%;
+    padding-top: 0%;
+    border-radius: 10px;
+    margin: 0%;
+    border: 0%;
+   
+
+
+}
+.logo{
+
+
+
+}
+.nav{
+    justify-content: space-between;
+}
+.nav-list{
+    align-items: right;
+    color: white;
+    justify-content: space-between;
+
+}
+.icons{
+    color: aliceblue;
+    justify-content: left;
+    
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    z-index: 1000;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+
+}
+.nav-list ul li{
+    text-align: center;
+    font-style: normal;
+    color: white;
+    font-size: 135%;
+    cursor: move;
+}
+.nav-list ul li a{
+    color: white;
+    text-decoration: none;
+}
+.foot ul li a{
+    color: white;
+    text-decoration: none;
+}
